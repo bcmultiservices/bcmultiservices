@@ -1,0 +1,57 @@
+# Environnement Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environnement virtuel spécifique
+nom_de_lenv/
+myenv/
+
+# Configuration de l'IDE
+.vscode/
+*.swp
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Django stuff
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+
+# Fichiers secrets et sensibles
+*.env
+config/settings/local.py
+config/settings/local_*.py
+secrets.json
+
+# Static files
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Profiling data
+*.prof
+
+# Test / debug
+debug.log
