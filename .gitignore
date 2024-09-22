@@ -33,12 +33,7 @@ config/settings/local.py
 config/settings/local_*.py
 secrets.json
 
-# Static files
-staticfiles/
-static/
 
-# Media files
-media/
 
 # Coverage reports
 htmlcov/
